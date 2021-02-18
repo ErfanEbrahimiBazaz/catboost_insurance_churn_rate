@@ -13,3 +13,12 @@ This repo is a complement to [my other git repository](https://github.com/ErfanE
 7. Each trained model in each fold is saved seperately with pickle.
 8. All saved models are loaded back and used to predict target value of test data set.
 9. All models' predictions are averaged together and rounded to 0 if the average value is less than equal to 0.5 and 1 if otherwise is true.
+
+## Results
+
+1. A single catboost performed more accurately than the ensemble of 5 catboosts each trained by a different kfold.
+2. Training a catboost model with all trained data with not split, improved the performance by testing it on the df_test data frame. The priblem with this method is, there is no way to be sure the final model is not overfit.
+
+## Impact of different encodings on catboost model
+
+Catboost can handle categorical data and does not require encoding. Still we check the impact of different encodings on catboost.
