@@ -2,6 +2,11 @@
 
 This repo is a complement to [my other git repository](https://github.com/ErfanEbrahimiBazaz/boosting_methods_insurance_dataset) where I trained models with XGBoost and lightgbm to predict churn rate of sample insurance clients. In this repo the same data set has been used to train a model with catboost.
 
+## Objectives
+
+1. Comparing catboost with xgboost and lightgbm
+**2. Making a soft and hard voter manually, saving trained models to hard drive and applying an ensemble of trained models on test data.** 
+
 ## Catboost
 
 1. Catboost has been used together with cross-validation.
