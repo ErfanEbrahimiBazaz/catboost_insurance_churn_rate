@@ -5,7 +5,7 @@ This repo is a complement to [my other git repository](https://github.com/ErfanE
 ## Objectives
 
 1. Comparing catboost with xgboost and lightgbm
-**2. Making a soft and hard voter manually, saving trained models to hard drive and applying an ensemble of trained models on test data.** 
+2. ** Making a soft and hard voter manually, saving trained models to hard drive and applying an ensemble of trained models on test data.** 
 
 ## Catboost
 
